@@ -11,6 +11,9 @@ test("Subtrair dois números",()=>{
 
 test("Dividir dois números",()=>{
     expect(calculadora.dividirDoisNumeros(1,2)).toBe(0.5)
+    expect(()=>{
+        calculadora.dividirDoisNumeros(1,0)
+    }).toThrow("Divisão por zero não permitida")
 })
 
 test("Multiplicar dois números",()=>{
