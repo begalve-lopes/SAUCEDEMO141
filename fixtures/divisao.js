@@ -19,7 +19,6 @@ module.exports.array = [
         "num2": 4,
         "resultado": 1
     },
-
     {
         "num1": 4,
         "num2": 0,
